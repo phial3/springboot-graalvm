@@ -1,0 +1,956 @@
+[
+  {
+    "name": "ch.qos.logback.classic.pattern.DateConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LevelConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LineSeparatorConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LoggerConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.MDCConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.MessageConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.ThreadConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.DateTokenConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.util.ArrayList",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.LinkedHashSet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.logging.LogManager",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.annotation.PostConstruct",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.annotation.Resource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.servlet.Servlet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  },
+  {
+    "name": "org.apache.coyote.AbstractProtocol",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "methods": [
+      {
+        "name": "getLocalPort",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.coyote.http11.Http11NioProtocol",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+    "condition": {
+      "typeReachable": "org.apache.logging.log4j.LogManager"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.logging.log4j.message.ReusableMessageFactory",
+    "condition": {
+      "typeReachable": "org.apache.logging.log4j.LogManager"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler",
+    "condition": {
+      "typeReachable": "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler"
+    }
+  },
+  {
+    "name": "org.hamcrest.TypeSafeDiagnosingMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.TypeSafeMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasProperty",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasPropertyWithValue",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.slf4j.bridge.SLF4JBridgeHandler",
+    "condition": {
+      "typeReachable": "org.slf4j.bridge.SLF4JBridgeHandler"
+    }
+  },
+  {
+    "name": "org.springframework.aot.TestContextBootstrapInitializer",
+    "methods": [
+      {
+        "name": "getContextLoaders",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContextInitializers",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aot.test.AotCacheAwareContextLoaderDelegate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.aot.test.AotDependencyInjectionTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Qualifier",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Value",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.config.PropertiesFactoryBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.SpringApplication",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "methods": [
+      {
+        "name": "setBannerMode",
+        "parameterTypes": [
+          "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.SpringBootConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.ImportAutoConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.integration.IntegrationPropertiesEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.HikariDriverConfigurationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocation",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocation[]"
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties$Activate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.event.EventPublishingRunListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.bind.Name",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.FailureAnalyzers",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.RandomValuePropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.java.JavaLoggingSystem",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ColorConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.reactor.DebugAgentEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.OverrideAutoConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootContextLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest$WebEnvironment",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.json.AbstractJsonMarshalTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.AbstractJsonMarshalTester"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": [
+          "java.lang.Class",
+          "org.springframework.core.ResolvableType"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.json.BasicJsonTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.BasicJsonTester"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.json.JacksonTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.JacksonTester"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.json.JsonbTester"
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.web.SpringBootTestRandomPortEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateFactory",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateRegistrar",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientFactory",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientRegistrar",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.context.annotation.ComponentScan",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.Configuration",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.AliasFor",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.Order",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.io.support.PropertiesLoaderSupport",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.http.HttpStatus",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper",
+    "condition": {
+      "typeReachable": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper"
+    },
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.springframework.http.client.SimpleClientHttpRequestFactory",
+    "condition": {
+      "typeReachable": "org.springframework.http.client.SimpleClientHttpRequestFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.TypeAccess"
+  },
+  {
+    "name": "org.springframework.stereotype.Component",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Controller",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Service",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ActiveProfiles",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.BootstrapWith",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ContextConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ContextHierarchy",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.DynamicPropertySource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.NestedTestConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestConstructor",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestExecutionListeners",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestPropertySource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.event.ApplicationEventsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.event.EventPublishingTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.event.RecordApplicationEvents",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.Sql",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlConfig",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlGroup",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlMergeMode",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.DisabledIf",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.EnabledIf",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.SpringExtension",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.SpringJUnitConfig",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DefaultBootstrapContext",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DefaultTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DelegatingSmartContextLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.support.DirtiesContextTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.transaction.AfterTransaction",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.transaction.BeforeTransaction",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.transaction.TransactionalTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.web.ServletTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.web.WebAppConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.web.WebTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.web.client.SimpleRequestExpectationManager",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.MockServerRestTemplateCustomizer"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.DeleteMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ExceptionHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.GetMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.InitBinder",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.Mapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ModelAttribute",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PatchMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PathVariable",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PostMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PutMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestBody",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestHeader",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMethod",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMethod[]",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestParam",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestPart",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ResponseBody",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ResponseStatus",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RestController",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.context.ConfigurableWebApplicationContext",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  },
+  {
+    "name": "org.springframework.web.servlet.DispatcherServlet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  }
+]

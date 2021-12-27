@@ -1,0 +1,4 @@
+#
+#Mon Dec 27 17:26:27 CST 2021
+org.example.demo.pixiu.Application=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+org.example.demo.pixiu.controller.IndexController=org.springframework.stereotype.Component
