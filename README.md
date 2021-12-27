@@ -5,6 +5,8 @@
   ](https://www.graalvm.org/docs/getting-started/linux-aarch64/).
 - Download the Java 17 GraalVM from [here](https://github.com/graalvm/graalvm-ce-builds/releases)
 - macOS: 
+
+[HomeBrew graalvm](https://github.com/graalvm/homebrew-tap)
 ```
 brew search graalvm
 brew install --cask graalvm/tap/graalvm-ce-java17`
